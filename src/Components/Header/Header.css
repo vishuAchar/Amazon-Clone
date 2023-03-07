@@ -1,0 +1,109 @@
+/* header  */
+.header-top {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 100;
+  padding: 5px 0;
+}
+
+/* header  amazon logo*/
+
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  /* margin-top: 18px; */
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+/* header search bar */
+.header_search {
+  display: flex;
+  flex: 1; /*max width in flex box*/
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.header_searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header_searchIcon {
+  background-color: orange;
+  padding: 5px;
+  height: 22px !important;
+}
+
+/* header link */
+.headerNav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header_link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header_optionLineOne {
+  font-size: 10px;
+  /* font-weight: 800; */
+}
+.header_optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+/* Basket link */
+
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+}
+
+.header_basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Header bottom */
+.header_bottom {
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu_link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.menu_link:hover,
+.header_link:hover,
+.header_logo:hover {
+  border: 1px solid white;
+}
+.downloadApp_linkText {
+  font-size: 20px;
+}
