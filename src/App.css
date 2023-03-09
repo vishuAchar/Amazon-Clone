@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+@media screen and (max-width: 1300px) {
+  #root {
+    width: 1300px;
+    overflow-x: scroll;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
